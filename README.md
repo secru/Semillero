@@ -2,4 +2,4 @@
 
 Proyecto de semillero sobre catálogo virtual de flora de Manizales
 
-	sudo apt-get install rabbitmq-server
+	sudo apt-get install flask
