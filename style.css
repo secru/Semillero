@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #669900 !important;
+}
+
+.navbar .nav-item .nav-link{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.mt-4.text-center.col-md-12 {
+    font-size: 15pt;
+    color: #669900;
+}
