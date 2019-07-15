@@ -8,7 +8,16 @@
     font-weight: bolder;
 }
 
+.nav-link:hover, .logoU:hover{
+    background-color: #5c8112;
+}
+
 .mt-4.text-center.col-md-12 {
     font-size: 15pt;
     color: #669900;
+}
+
+.caption-back{
+    background-color:rgba(0,0,0,.5);
+    border-radius: 15em;
 }
