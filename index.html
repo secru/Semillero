@@ -8,18 +8,12 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="http://www.ucaldas.edu.co/">
                 <img class="logoU" src="img/Logo_claroU.png" alt="Logo Universidad" width="131.5px" height="50.5px">
@@ -45,10 +39,15 @@
                         <a class="nav-link" href="#">SELECTOR DE ESPECIES</a>
                     </li>
                 </ul>
-
+                <ul class="nav navbar-nav navbar-right d-lg-none">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admnistración</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- Page Content -->
     <div class="container">
@@ -63,12 +62,13 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="https://catalogofloravalleaburra.eia.edu.co/storage/images/2292ce38fa2cf948329a66f6b3e1c0601edbfdc5.jpg"
                         alt="First slide">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption  d-none d-md-block">
                         <div class="caption-back">
                             <h5>Flor 1</h5>
                             <p">Floribius</p>
                         </div>
                     </div>
+                    <p class="d-block d-sm-none"> Flor 1</p>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="https://catalogofloravalleaburra.eia.edu.co/storage/images/fc12696ca237578875f82b10a5cf83f1b536324f.jpg"
@@ -79,6 +79,7 @@
                             <p>Subtexto 2</p>
                         </div>
                     </div>
+                    <p class="d-block d-sm-none"> Flor 2</p>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="https://catalogofloravalleaburra.eia.edu.co/storage/images/f0f4044066443a0498ea8fae1d6e14919eaecf26.jpg"
@@ -89,6 +90,7 @@
                             <p>Subtexto 3</p>
                         </div>
                     </div>
+                    <p class="d-block d-sm-none"> Flor 3</p>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -131,6 +133,13 @@
 
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
 </body>
