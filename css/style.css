@@ -11,6 +11,8 @@
 
 .nav-link:hover, .logoU:hover{
     background-color: #5c8112;
+    margin-right: .2rem;
+    
 }
 
 .mt-4.text-center.col-md-12 {
@@ -38,9 +40,4 @@
 
 .nav2{
     background-color: #84c20a !important;
-}
-
-.navbar-toggler:active{
-    background-color:#bfd495;
-    color: aqua;
 }
