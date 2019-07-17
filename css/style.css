@@ -42,4 +42,5 @@
 
 .navbar-toggler:active{
     background-color:#bfd495;
+    color: aqua;
 }
