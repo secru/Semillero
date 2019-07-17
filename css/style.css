@@ -39,3 +39,7 @@
 .nav2{
     background-color: #84c20a !important;
 }
+
+.navbar-toggler:active{
+    background-color:#bfd495;
+}
