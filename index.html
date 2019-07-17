@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
 
 </head>
 
@@ -48,6 +48,25 @@
         </div>
     </nav>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav2 d-none d-sm-block">
+        <div class="container">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Administración
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+            <form method="GET" action="https://catalogofloravalleaburra.eia.edu.co/search" accept-charset="UTF-8" class="navbar-form navbar-right hidden-md hidden-lg" role="search">
+                <div class="input-group">
+                  <input name="key_search" type="text" class="form-control" placeholder="Buscar" required>
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+              </form>
+        </div>
+    </nav>
 
     <!-- Page Content -->
     <div class="container">
