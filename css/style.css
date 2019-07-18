@@ -41,3 +41,8 @@
 .nav2{
     background-color: #84c20a !important;
 }
+
+.form-control {
+    font-style: italic;
+    font-size: 14px;
+}
