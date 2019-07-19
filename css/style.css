@@ -60,3 +60,17 @@ p.mt-2{
     text-align: center;
 }
 
+.info-footer{
+    background-color: aqua;
+    padding: 35px 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col-md-2.first-sqs{
+    margin-left: 7rem !important;
+    background-color: red;
+}
+
+
