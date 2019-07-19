@@ -1,3 +1,6 @@
+body{
+    background-color: #f0fafa;
+}
 .navbar{
     background-color: #669900 !important;
 }
@@ -60,17 +63,16 @@ p.mt-2{
     text-align: center;
 }
 
-.info-footer{
-    background-color: aqua;
-    padding: 35px 0;
+.item{
+    background-color: #fcfcfc;
     margin-left: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
     margin-right: 2rem;
-    margin-bottom: 2rem;
 }
 
-.col-md-2.first-sqs{
-    margin-left: 7rem !important;
-    background-color: red;
+.item p{
+    color: #7f8c8c;
+    font-weight: 500;
+    margin-top: 1rem ;
 }
-
-
