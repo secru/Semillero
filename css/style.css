@@ -76,3 +76,12 @@ p.mt-2{
     font-weight: 500;
     margin-top: 1rem ;
 }
+
+.saber-mas{
+    background-color: #bdda82;
+    padding: 6px 0px 6px ;
+}
+
+.col-md-3 a:link{
+    text-decoration: none;
+}
