@@ -85,3 +85,12 @@ p.mt-2{
 .col-md-3 a:link{
     text-decoration: none;
 }
+
+.contacto{
+    background-color: #669900;
+    padding-top: 4px;
+}
+
+.item-footer{
+    padding-top: 1rem;
+}
