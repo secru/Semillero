@@ -93,4 +93,26 @@ p.mt-2{
 
 .item-footer{
     padding-top: 1rem;
+    border-right: 1px solid #b2cc90;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.li-footer,.li-footer2{
+    color: #b2cc90 !important;
+}
+
+.li-footer:hover{
+    background-color: #5c8112;
+    padding-left: 4px;
+    border-radius: 12rem;
+}
+
+.contacto .float-right ul a:link{
+    background-color: #5c8112;
+    text-decoration: none;
+}
+
+strong{
+    background-color: #5c8112;
 }
