@@ -115,4 +115,16 @@ p.mt-2{
 
 strong{
     background-color: #5c8112;
+    padding: 2px 1rem 2px 1rem;
+    border-radius: 3rem;
+}
+
+.col-left{
+    margin-left: 10px;
+}
+
+.li-footer2 span{
+    font-style: italic;
+    font-size: 130%;
+    font-family: Open Sans,sans-serif;
 }
