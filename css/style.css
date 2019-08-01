@@ -128,3 +128,7 @@ strong{
     font-size: 130%;
     font-family: Open Sans,sans-serif;
 }
+
+.row.contacto.mt-2{
+    margin-right: 0;
+}
