@@ -132,3 +132,7 @@ strong{
 .row.contacto.mt-2{
     margin-right: 0;
 }
+
+.form-group.col-md-6.mt-2{
+    float: left !important;
+}
