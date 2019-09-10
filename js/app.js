@@ -19,3 +19,7 @@ $(function () {
             $("#" + iid).find(".saber-mas").css('background-color', '')
         });
 });
+
+$(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
