@@ -28,7 +28,7 @@ body{
     border-radius: 15rem;
 }
 
-.navbar-toggler{
+.navbar-toggler, #boton{
     background-color: #8fc02c;
 }
 
@@ -135,4 +135,13 @@ strong{
 
 .form-group.col-md-6.mt-2{
     float: left !important;
+}
+
+.switch-btn{
+    background-color: gray !important;
+}
+
+.form-control.js-example-basic-multipl{
+    width: 100% !important;
+    background-color: red !important;
 }
