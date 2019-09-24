@@ -140,3 +140,12 @@ strong{
 .switch-btn{
     background-color: gray !important;
 }
+
+.btn{
+    background-color: #bdda82;
+    border:gray;
+}
+
+.btn:hover{
+    background-color: #5c8112 !important;
+}
