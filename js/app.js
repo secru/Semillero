@@ -12,8 +12,8 @@ $(function () {
             var iid = $(this).attr("id");
             $("#" + iid).find(".saber-mas").css('background-color', '')
         });
-});
 
-$(document).ready(function () {
-    $('.js-example-basic-multiple').select2();
+    $('.js-example-basic-multiple').select2({
+        language: "es"  
+    });
 });
